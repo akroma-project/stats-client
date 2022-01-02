@@ -20,7 +20,8 @@
     "ws": "^1.0.1"
   },
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./app.js",
+    "debug": "NODE_ENV=production WS_SERVER=wss://stats.akroma.org WS_SECRET=aka2022 node ./app.js"
   },
   "repository": {
     "type": "git",
